@@ -22,7 +22,10 @@ class Stack:
 
 #---------------------------------------------------------------------------------------------------
 # use linked list
-# 如果设计大量push操作, list空间不够时复杂度会退化到O(n), linked list可以保证最坏情况下仍是O(1)
+# If a stack implementation requires frequent push operations,
+# its time complexity may degrade to O(n).
+# However, by utilizing a linked list to construct the stack,
+# it is possible to maintain a time complexity of O(1) even in the worst-case scenario.
 class StackNode:
     def __init__(self,
         item,
