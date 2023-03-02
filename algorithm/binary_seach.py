@@ -13,5 +13,4 @@ def binary_search(sorted_seq, val):
 
 #---------------------------------------------------------------------------------------------------
 l1 = [1, 2, 3, 6, 9, 12, 22, 33, 40, 50, 52]
-index = binary_search(l1, 5)
-print(index)
+assert binary_search(l1, 6) == 3
